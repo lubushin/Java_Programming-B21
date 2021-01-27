@@ -1,0 +1,30 @@
+package day45_Exceptions;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class Throws_VS_TryCatch2 {
+
+    public static void method1() throws InterruptedException {
+      Thread.sleep(1000);
+    }
+    public static void method2() throws InterruptedException {
+        Thread.sleep(1000);
+    }
+    public static void method3(){
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+     public static void Test(){
+        //method1();
+        //method2();
+
+        method3();
+
+
+     }
+}
