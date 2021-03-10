@@ -1,5 +1,7 @@
 package library;
 
+import java.util.Set;
+
 public class StringUtility {
 
     //Returns the frequency of giving char from the given string, as int
@@ -39,7 +41,7 @@ public class StringUtility {
         return result;
     }
 
-    //Removes teh duplicates from teh string and returns it
+    //Removes the duplicates from the string and returns it
     public static String removeDuplicates(String str){
         String result = "";  //"abc"
 

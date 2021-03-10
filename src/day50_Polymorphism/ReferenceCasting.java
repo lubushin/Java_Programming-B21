@@ -31,7 +31,7 @@ public class ReferenceCasting {
         Dog dog = (Dog) animal;
         dog.bark();
 
-        Animal animal2 = new Cat("Lena","Brred",'F',12,"white", "small");
+        Animal animal2 = new Dog("Jack","Brred",'F',12,"white", "small");
         ((Cat)animal2).meow();
 
 

@@ -19,6 +19,9 @@ public class PolymorphismRules {
     animal.eat("Dog food");
     //animal.bark();
 
+        Animal dog1 = new Dog("B","K",'M',10,"white","big");
+
+
         Cube cube = new Cube(5);
         System.out.println(cube.area());
         System.out.println(cube.perimeter());

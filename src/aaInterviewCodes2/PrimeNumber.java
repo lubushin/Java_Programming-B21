@@ -3,7 +3,7 @@ package aaInterviewCodes2;
 public class PrimeNumber {
 
     public static void main(String[] args) {
-        int n = 11;
+        int n = 10;
         System.out.println(isPrime(n));
     }
 
