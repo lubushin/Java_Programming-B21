@@ -1,6 +1,6 @@
 package A_Edabit;
 
-public class EdabitPractice {
+public class IsEqual {
     public static void main(String[] args) {
 int num1 = 4;
 int num2 = 5;

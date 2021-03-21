@@ -31,7 +31,6 @@ public class MoveAllZerosToEnd {
         int[] array = {3, 0, 1, 0, 2, 0};//{3,2,1,0,0,0}
         int[] newArray = new int[array.length];
         System.out.println(Arrays.toString(newArray));
-
         int count = 0;
         for (int each : array) {
             if (each != 0) {
@@ -39,6 +38,33 @@ public class MoveAllZerosToEnd {
             }
         }
         System.out.println(Arrays.toString(newArray));
+        System.out.println("------------------------------");
+List<Integer> list5 = new ArrayList<>(Arrays.asList(1,2,3,4,5,2,3,4,5));
+int res=0;
+for(int each6: list5){
+    int f=0;
+    for(int each7 : list5){
+        if(each6==each7){
+            f++;
+        }
+    }
+    if(f>1){
+        res=each6;
+        break;
+    }
+}
+        System.out.println(res);
+
+int[] arr = {0,1,2,0,4,0,5,6,9};
+int[] newArr = new int[arr.length];
+int count3=0;
+for(int each : arr){
+    if(each !=0){
+        newArr[count3++] = each;
+    }
+}
+        System.out.println(Arrays.toString(newArr));
+        System.out.println("------------------------------");
 
         System.out.println("====================================");
 

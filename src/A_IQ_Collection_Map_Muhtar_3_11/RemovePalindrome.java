@@ -34,6 +34,10 @@ public class RemovePalindrome {
              it.remove();
         System.out.println(reverse);
     }
+    List<String> words3 = new ArrayList<>(Arrays.asList("Anna", "car", "Anna", "Nelan"));
+Iterator<String> it = words3.iterator();
+String each = it.next();
+String reverse ="";
 
 
       /* public static boolean isPalindrome(String str) {
